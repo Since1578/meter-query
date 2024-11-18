@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1482</width>
+    <height>689</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>站点信息配置</string>
+  </property>
+  <property name="toolTip">
+   <string/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="19" column="2">
+          <widget class="QComboBox" name="comboBox_cut_485_address_1">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="2">
+          <widget class="QLabel" name="label_24">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string extracomment="是否">县区</string>
+           </property>
+          </widget>
+         </item>
+         <item row="12" column="0">
+          <widget class="QLabel" name="label_34">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>网关品牌</string>
+           </property>
+          </widget>
+         </item>
+         <item row="12" column="2">
+          <widget class="QLabel" name="label_33">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>网关序列号</string>
+           </property>
+          </widget>
+         </item>
+         <item row="17" column="0">
+          <widget class="QComboBox" name="comboBox_cut_brand">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="1">
+          <widget class="QLineEdit" name="adcode_edit">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="placeholderText">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="21" column="1">
+          <widget class="QComboBox" name="comboBox_cut_variable_3">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="21" column="2">
+          <widget class="QComboBox" name="comboBox_cut_485_address_3">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="0">
+          <widget class="QComboBox" name="comboBox_fast_pile_num">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="13" column="1">
+          <widget class="QComboBox" name="comboBox_gateway_model">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="15" column="0">
+          <widget class="QComboBox" name="comboBox_electricity_level">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="19" column="0">
+          <widget class="QComboBox" name="comboBox_cut_serial_1">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLabel" name="label_23">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>城市</string>
+           </property>
+          </widget>
+         </item>
+         <item row="22" column="2">
+          <widget class="QComboBox" name="comboBox_cut_485_address_4">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="1">
+          <widget class="QLabel" name="label_29">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>充电站区划编号</string>
+           </property>
+          </widget>
+         </item>
+         <item row="22" column="1">
+          <widget class="QComboBox" name="comboBox_cut_variable_4">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="2">
+          <widget class="QLineEdit" name="region_name_edit">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="placeholderText">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLineEdit" name="city_name_edit">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="placeholderText">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QLabel" name="label_25">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;充电站详细地址&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="18" column="0">
+          <widget class="QLabel" name="label_41">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>断路器设备序号</string>
+           </property>
+          </widget>
+         </item>
+         <item row="17" column="2">
+          <widget class="QComboBox" name="comboBox_cut_heart">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="0">
+          <widget class="QLabel" name="label_28">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>快充桩数量</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QLineEdit" name="sql_table_id_edit">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="placeholderText">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="14" column="1">
+          <widget class="QLabel" name="label_37">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>经营性电表数量</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_22">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>省份</string>
+           </property>
+          </widget>
+         </item>
+         <item row="18" column="2">
+          <widget class="QLabel" name="label_39">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>断路器RS485地址</string>
+           </property>
+          </widget>
+         </item>
+         <item row="16" column="0">
+          <widget class="QLabel" name="label_40">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>断路器品牌</string>
+           </property>
+          </widget>
+         </item>
+         <item row="15" column="1">
+          <widget class="QComboBox" name="comboBox_strong_electricity_num">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="15" column="2">
+          <widget class="QComboBox" name="comboBox_weak_electricity_num">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="16" column="1">
+          <widget class="QLabel" name="label_38">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>断路器型号</string>
+           </property>
+          </widget>
+         </item>
+         <item row="20" column="2">
+          <widget class="QComboBox" name="comboBox_cut_485_address_2">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="14" column="2">
+          <widget class="QLabel" name="label_35">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>非经营性电表数量</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="2">
+          <widget class="QLabel" name="label_30">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>充电站ID</string>
+           </property>
+          </widget>
+         </item>
+         <item row="21" column="0">
+          <widget class="QComboBox" name="comboBox_cut_serial_3">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="18" column="1">
+          <widget class="QLabel" name="label_43">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>断路器变量名称</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QLabel" name="label_31">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>充电站信息表ID</string>
+           </property>
+          </widget>
+         </item>
+         <item row="17" column="1">
+          <widget class="QComboBox" name="comboBox_cut_model">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="12" column="1">
+          <widget class="QLabel" name="label_32">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>网关型号</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="1">
+          <widget class="QLabel" name="label_27">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>快充枪数量</string>
+           </property>
+          </widget>
+         </item>
+         <item row="14" column="0">
+          <widget class="QLabel" name="label_36">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>电表等级划分</string>
+           </property>
+          </widget>
+         </item>
+         <item row="13" column="2">
+          <widget class="QLineEdit" name="gateway_serial_edit">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="placeholderText">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="2">
+          <widget class="QLineEdit" name="position_id_edit">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="placeholderText">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="1">
+          <widget class="QComboBox" name="comboBox_fast_gun_num">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="19" column="1">
+          <widget class="QComboBox" name="comboBox_cut_variable_1">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLineEdit" name="province_name_edit">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+           <property name="placeholderText">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="16" column="2">
+          <widget class="QLabel" name="label_42">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>断路器心跳时间</string>
+           </property>
+          </widget>
+         </item>
+         <item row="20" column="1">
+          <widget class="QComboBox" name="comboBox_cut_variable_2">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="2">
+          <widget class="QComboBox" name="comboBox_slow_gun_num">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0" colspan="3">
+          <widget class="QComboBox" name="comboBox_position_place">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;
+</string>
+           </property>
+          </widget>
+         </item>
+         <item row="20" column="0">
+          <widget class="QComboBox" name="comboBox_cut_serial_2">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="2">
+          <widget class="QLabel" name="label_26">
+           <property name="font">
+            <font>
+             <family>宋体</family>
+             <pointsize>12</pointsize>
+             <weight>9</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>慢充枪数量</string>
+           </property>
+          </widget>
+         </item>
+         <item row="13" column="0">
+          <widget class="QComboBox" name="comboBox_gateway_brand">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="22" column="0">
+          <widget class="QComboBox" name="comboBox_cut_serial_4">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0" colspan="3">
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_21">
+             <property name="font">
+              <font>
+               <family>宋体</family>
+               <pointsize>12</pointsize>
+               <weight>9</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;充电站名称&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="position_name_edit">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="placeholderText">
+              <string>请输入站点名称</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="query_service_pushButton">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+             </property>
+             <property name="text">
+              <string>位置服务查询</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="3" column="1">
+          <widget class="QLabel" name="position_infos_label">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(203, 203, 203);
+font: 75 12pt &quot;Times New Roman&quot;;</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;充电站配置状态&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QLabel" name="gateway_infos_label">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(203, 203, 203);
+font: 75 12pt &quot;Times New Roman&quot;;</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;网关设备配置状态&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="3">
+          <widget class="QLabel" name="electricity_infos_label">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(203, 203, 203);
+font: 75 12pt &quot;Times New Roman&quot;;</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;电表设备配置状态&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="4">
+          <widget class="QLabel" name="cut_infos_label">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(203, 203, 203);
+font: 75 12pt &quot;Times New Roman&quot;;</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;断路器配置状态&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" colspan="4">
+          <widget class="QPushButton" name="add_position_pushButton">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>新增站点信息</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QTextBrowser" name="position_data_label">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QComboBox" name="position_data_query_comboBox">
+           <property name="styleSheet">
+            <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="position_data_query_pushButton">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(240, 240, 240);
+font: 75 12pt &quot;Times New Roman&quot;;
+font: 75 12pt &quot;宋体&quot;;</string>
+           </property>
+           <property name="text">
+            <string>站点实时数据查询</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

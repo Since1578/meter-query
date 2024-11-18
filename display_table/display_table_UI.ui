@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1262</width>
+    <height>822</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>统计汇总</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="6">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 13pt &quot;Adobe 黑体 Std R&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>计算订单损耗</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">font: 13pt &quot;Adobe 黑体 Std R&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>电量查询数据</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">font: 13pt &quot;Adobe 黑体 Std R&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>绘图基础数据</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="0" colspan="7">
+     <widget class="QTableView" name="tableView">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 13pt &quot;Adobe 黑体 Std R&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>平台订单电量导入</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="styleSheet">
+       <string notr="true">font: 13pt &quot;Adobe 黑体 Std R&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>导出报表</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

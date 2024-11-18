@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1259</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>亿为分项计量</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(3, 11, 30);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 17pt &quot;黑体&quot;;
+color: rgb(110, 255, 207);
+border: 4px solid rgba(255, 255, 255, 0);
+background-color: rgba(255, 255, 255, 0.1);
+border-radius:15px</string>
+      </property>
+      <property name="text">
+       <string>电量统计分析</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 17pt &quot;黑体&quot;;
+color: rgb(110, 255, 207);
+border: 4px solid rgba(255, 255, 255, 0);
+background-color: rgba(255, 255, 255, 0.1);
+border-radius:15px</string>
+      </property>
+      <property name="text">
+       <string>统计汇总表</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 17pt &quot;黑体&quot;;
+color: rgb(110, 255, 207);
+border: 4px solid rgba(255, 255, 255, 0);
+background-color: rgba(255, 255, 255, 0.1);
+border-radius:15px</string>
+      </property>
+      <property name="text">
+       <string>分时时段配置</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;Times New Roman&quot;;
+font: 17pt &quot;黑体&quot;;
+color: rgb(110, 255, 207);
+border: 4px solid rgba(255, 255, 255, 0);
+background-color: rgba(255, 255, 255, 0.1);
+border-radius:15px</string>
+      </property>
+      <property name="text">
+       <string>站点配置与抄表</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="4">
+     <layout class="QGridLayout" name="gridLayout"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
